@@ -14,6 +14,7 @@
 		33CE1E45238262B600E0AEC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CE1E43238262B600E0AEC3 /* LaunchScreen.storyboard */; };
 		33CE1E50238262B600E0AEC3 /* DataTransferThroughDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CE1E4F238262B600E0AEC3 /* DataTransferThroughDelegateTests.swift */; };
 		33CE1E5B238262B600E0AEC3 /* DataTransferThroughDelegateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CE1E5A238262B600E0AEC3 /* DataTransferThroughDelegateUITests.swift */; };
+		33CE1E6923826A3100E0AEC3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CE1E6823826A3100E0AEC3 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		33CE1E56238262B600E0AEC3 /* DataTransferThroughDelegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTransferThroughDelegateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CE1E5A238262B600E0AEC3 /* DataTransferThroughDelegateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransferThroughDelegateUITests.swift; sourceTree = "<group>"; };
 		33CE1E5C238262B600E0AEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CE1E6823826A3100E0AEC3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,11 @@
 			children = (
 				33CE1E3A238262B300E0AEC3 /* AppDelegate.swift */,
 				33CE1E3C238262B300E0AEC3 /* ViewController.swift */,
+				33CE1E6823826A3100E0AEC3 /* SecondViewController.swift */,
+				33CE1E46238262B600E0AEC3 /* Info.plist */,
 				33CE1E3E238262B300E0AEC3 /* Main.storyboard */,
 				33CE1E41238262B600E0AEC3 /* Assets.xcassets */,
 				33CE1E43238262B600E0AEC3 /* LaunchScreen.storyboard */,
-				33CE1E46238262B600E0AEC3 /* Info.plist */,
 			);
 			path = DataTransferThroughDelegate;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33CE1E6923826A3100E0AEC3 /* SecondViewController.swift in Sources */,
 				33CE1E3D238262B300E0AEC3 /* ViewController.swift in Sources */,
 				33CE1E3B238262B300E0AEC3 /* AppDelegate.swift in Sources */,
 			);
